@@ -55,7 +55,7 @@ unsigned char** erode_image(unsigned char **img, int l, int c)
             {
                 for(q=-1; q<=1; q++)
                 {
-                    if(p!=i || q!=j) // juste les voisinages
+                    if(p!=i || q!=j) 
                         if(min>img[i+p][j+q])
                             min=img[i+p][j+q];
                 }
