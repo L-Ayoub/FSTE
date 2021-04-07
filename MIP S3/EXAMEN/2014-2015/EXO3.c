@@ -1,4 +1,5 @@
 // exercice 3 
+
 //Question 2
 char** newStringArray(int n){
     char** T = (char**)malloc(n*sizeof(char*)); // ALLOCATION DYNAMIQUE 
@@ -86,7 +87,7 @@ void solve(char **mat, int size, char **tab, int n){
             if(ind.deb == -1 && ind.fin == -1) 
               continue; // arret ici mais refboucler
             else{
-                    for(i = ind.deb; i <= ind.fin ; i++){
+                    for(i = ind.d; i <= ind.f ; i++){
                          Temp[L][i] = '#';
                    }
     
